@@ -1,8 +1,8 @@
 :root{
     --color1: rgb(130, 97, 238);
     --color2: rgb(255, 88, 158);
-    --color3: rgba(130, 97, 238, 0.8);
-    --color4: rgba(255, 88, 158, 0.5);
+    --color3: rgba(130, 97, 238, 0.95);
+    --color4: rgba(255, 88, 158, 0.95);
     --color5: rgb(237, 237, 237);
     --color6: rgb(157, 157, 157);
     --color7: rgb(33, 33, 33);
@@ -328,3 +328,30 @@ Biz aynısını kullanarak bootstrap stilini ezdik
 }
 
 
+/************************* BLOG ENTRIES *************************/
+
+
+.blog-entries{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.blog-entries img{
+    width: 100%;
+    height: auto;
+}
+
+.blog-entries [class^="col"]{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.blog-entries [class^="col"] h3 {
+    font-size: 1.2rem;
+  }
+
+.blog-entries [class^="col"] p {
+    color: var(--color6);
+  }
