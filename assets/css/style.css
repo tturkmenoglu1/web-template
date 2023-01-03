@@ -355,3 +355,35 @@ Biz aynısını kullanarak bootstrap stilini ezdik
 .blog-entries [class^="col"] p {
     color: var(--color6);
   }
+
+
+/************************* CONTACT *************************/
+
+.contact{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: var(--color5);
+}
+.contact .keep-in-touch{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.contact .keep-in-touch h3{
+    font-size: 1.3rem;
+}
+.contact .keep-in-touch p{
+    color: var(--color6);
+    line-height: 2rem;
+}
+.contact input,
+.contact textarea{
+    border-radius: 20px;
+    padding: 0.8rem 1.2rem;
+    font-size: 0.8rem;
+}
+.contact input:focus,
+.contact textarea:focus{
+    border-color: var(--color9);
+    box-shadow:var(--color9) 0px 0px 0px 0.25rem;
+}
