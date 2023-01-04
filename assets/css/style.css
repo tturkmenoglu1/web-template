@@ -457,3 +457,7 @@ Biz aynısını kullanarak bootstrap stilini ezdik
     transform: scale(1.2) rotate(360deg);
 
 }
+
+.footer .copyright{
+    color: var(--color5);
+}
