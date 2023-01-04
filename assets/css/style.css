@@ -128,6 +128,7 @@ Biz aynısını kullanarak bootstrap stilini ezdik
     transform: translateY(-50%);
     position: relative;
     z-index: 99;
+    margin-bottom: -7;
 }
 
 @media(max-width: 1200px){
@@ -168,6 +169,12 @@ Biz aynısını kullanarak bootstrap stilini ezdik
 
 
 /************************* ABOUT US *************************/
+
+.about-us{
+    padding-top: 5rem; 
+    padding-bottom: 5rem; 
+}
+
 @media(max-width: 768px){
     .about-us{
         text-align: center;
@@ -268,7 +275,7 @@ Biz aynısını kullanarak bootstrap stilini ezdik
 
 /************************* PRICING PLAN *************************/
 .pricing-plan{
-    padding-top: 5rem;
+    padding-top: 8rem;
     padding-bottom: 5rem;
     background-color: var(--color5);
 }
@@ -349,7 +356,7 @@ Biz aynısını kullanarak bootstrap stilini ezdik
 
 /************************* BLOG ENTRIES *************************/
 .blog-entries{
-    padding-top: 5rem;
+    padding-top: 8rem;
     padding-bottom: 5rem;
     text-align: center;
 }
